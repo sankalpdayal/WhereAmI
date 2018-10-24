@@ -62,9 +62,14 @@ Goal tolrence parameters were also set in base local planner params to assist wh
 For launching of udacity bot the default launch file `robot_description.launch` is used. For the launch of custom bot
 another launch file was created `robot_sd_description.launch`. Since same parameters are used for both the bots, the acml.launch file remained the same.
 
+The results for the udacity robot navigation are shown in the following image.
+
+![picture alt](./results/ReachedGoalUdacity.JPG "UdacityResults")
+
+
 The results for the custom robot navigation are shown in the following image.
 
-![picture alt](./results/ReachedGoal.JPG "CustomBot")
+![picture alt](./results/ReachedGoal.JPG "CustomResults")
 
 ### Discussion
 1. This kind of localization technique can be used for the robot with the known map 
